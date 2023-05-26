@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'PT Sans', sans-serif;
+}
+
+.myself{
+    width: 6%;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+}
+
+.h3-nav{
+    display: flex;
+    align-items: center;
+    margin-left: 60%;
+    padding-right: 20px;
+}
+
+.h1-about{
+    font-family: 'Oxygen', sans-serif;
+    margin-top: 10%;
+}
+
+.imgs{
+    margin-top: 3%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 100px;
+}
+
+.img-item{
+    width: 10%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.icon{
+    margin-right: 5%;
+    color: black;
+    transition: ease .1s;
+
+}
+
+.icon:hover{
+    transition: ease .1s;
+    color: darkgrey;
+}
+
+.icon-about{
+    margin-right: 5%;
+    color: black;
+    transition: ease .1s;
+    align-items: center;
+    justify-content: center;
+    margin-left: 4%;
+}
+
+.icon-about:hover{
+    transition: ease .1s;
+    color: darkgrey;
+}
+
+.ul-footer{
+    display: flex;
+    flex-flow: row nowrap;
+    text-align: center;
+    justify-content: center;
+    list-style: none;
+    gap: 20px;
+}
+
+.a-footer{
+
+    text-decoration: none;
+    color: black;
+    transition: ease .1s;
+}
+
+.a-footer:hover{
+    transition: ease .1s;
+    color: darkgray;
+}
